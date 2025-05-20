@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="calc">
+            <input type="text" id="num1">
+            <select id="op">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">✖</option>
+                <option value="/">÷</option>
+            </select>
+            <input type="text" id="num2">
+            <button onclick="calc()">Calcular</button>
+            <span id="result"></span>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
